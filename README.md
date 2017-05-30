@@ -1,2 +1,2 @@
 # Elastic-SVG-Button
-Elastic SVG button animations and SVG shape animations
+Elastic SVG button animations using snap svg.
