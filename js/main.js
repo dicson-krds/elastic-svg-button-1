@@ -54,7 +54,7 @@
 
 	[].slice.call( document.querySelectorAll( 'button.effect-1' ) ).forEach( function( el ) {
 		new SVGButton( el );
-	} );
+	});
 
 	[].slice.call( document.querySelectorAll( 'button.effect-2' ) ).forEach( function( el ) {
 		new SVGButton( el, {
