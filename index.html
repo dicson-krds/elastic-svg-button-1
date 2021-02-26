@@ -26,7 +26,11 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments);
+        dataLayer.push({
+		eventCategory: 'widget',
+		eventAction: 'Click',
+		eventLabel: 'elastic-svg-button'
+	});
       }
       gtag('js', new Date());
 
